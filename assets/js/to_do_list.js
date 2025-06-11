@@ -34,5 +34,5 @@ const deleteList = function (e) {
 
 const editList = function (e) {
   const editList = e.target.parentElement;
-  editList.classList.add("li-edit");
+  editList.remove();
 };
